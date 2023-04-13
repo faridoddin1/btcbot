@@ -20,7 +20,7 @@ def price(update, context):
 
 if __name__ == '__main__':
     # Create the EventHandler and pass it your bot's token.
-    updater = Updater(token=os.environ['6297581881:AAHatEyDRmWNAKj3ntzalEuHEttlBcFB7WA'], use_context=True)
+    updater = Updater(token=os.environ['YOUR_BOT_TOKEN'], use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
