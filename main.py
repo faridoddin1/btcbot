@@ -1,7 +1,7 @@
 import requests
 import os
 from telegram.ext import CommandHandler, MessageHandler, Updater
-from telegram import Filters
+from telegram import filters
 
 
 def start(update, context):
