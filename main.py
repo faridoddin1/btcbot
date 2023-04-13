@@ -1,6 +1,8 @@
 import requests
 import os
-from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
+from telegram.ext import CommandHandler, MessageHandler, Updater
+from telegram import Filters
+
 
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Welcome to Crypto Price Bot! Enter '/price <currency_name>' to get the current price of a cryptocurrency.")
